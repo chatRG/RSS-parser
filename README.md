@@ -1,8 +1,9 @@
 <div align="center">
 <h1>Android RSS Parser</h1>
 
-[![](https://img.shields.io/badge/build-stable-brightgreen.svg?style=flat)]()
 [![](https://img.shields.io/badge/version-0.1-blue.svg?style=flat)]()
+[![](https://img.shields.io/badge/build-stable-brightgreen.svg?style=flat)]()
+[![](https://jitpack.io/v/chatRG/RSS-parser.svg)](https://jitpack.io/#chatRG/RSS-parser)
 [![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-orange.svg)](https://raw.githubusercontent.com/chatRG/RSS-parser/master/License.txt)
 
 </div>
@@ -11,6 +12,28 @@
 
 #### Library to parse RSS easily and efficiently.
 > Basically, making the repeated task of parsing the feed easy.
+
+Install
+----
+
+1. Add it in your root build.gradle at the end of repositories:
+
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+2. Add the dependency
+
+```gradle
+	dependencies {
+		compile 'com.github.chatRG:RSS-parser:v0.1'
+	}
+```
 
 Usage
 ----

@@ -27,7 +27,6 @@ release*.apk
 
 # Demo App
 /app
-/gradle
 
 # Java class files
 *.class
